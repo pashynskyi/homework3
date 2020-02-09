@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+  font-family: arial;
+  font-size: 10px;
+}
+
+.main {
+  width: 90%;
+  max-width: 1100px;
+  margin: 50px auto ;
+  word-break: break-all;
+}
+
+.main::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+div.product {
+  width: 20%;
+  min-height: 270px;
+  min-width: 130px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  float: left;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.div-img {
+  max-width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.img-product {
+  max-width: 100%;
+}
+
+.name-product {
+  height: 40px;
+  padding-top: 20px
+}
+
+.price {
+  margin: 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.currency {
+  font-size: 11px;
+}
+
+.availability {
+  margin-top: 1px;
+  font-size: 8px;
+  text-align: left;
+  color: rgb(44, 160, 29)
+}
+
+.basket {
+  float: right;
+  margin-right: 10px;  
+}
+
+.img-basket {
+  width: 20px;
+}
+
+.img-icon {
+  width: 20px;
+  padding: 3px;
+  display: block;
+}
+
+.icon {
+  position: absolute;
+  top: 6px;
+  right: 3px;
+}
+
+
+
